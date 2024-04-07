@@ -65,4 +65,8 @@
         "key": "ctrl+shift+z",
         "command": "workbench.action.toggleZenMode",
     },
+    {
+        "key": "ctrl+b",
+        "command": "extension.vim_ctrl+e",
+    },
 ]
