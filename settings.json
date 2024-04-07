@@ -2,14 +2,13 @@
     "workbench.sideBar.location": "right",
     "explorer.compactFolders": false,
     "window.zoomLevel": 0.5,
-    "editor.fontSize": 18,
+    "editor.fontSize": 16,
     "glassit.alpha": 235,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "security.allowedUNCHosts": [
         "wsl.localhost"
     ],
     "workbench.startupEditor": "none",
-    "workbench.activityBar.location": "hidden",
     "settingsSync.ignoredSettings": [],
     "zenMode.hideLineNumbers": false,
     "update.showReleaseNotes": false,
@@ -253,7 +252,14 @@
     "[go]": {
         "editor.defaultFormatter": "golang.go",
     },
+    "[templ]": {
+        "editor.defaultFormatter": "a-h.templ"
+    },
+    "tailwindCSS.includeLanguages": {
+        "templ": "html"
+    },
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features",
     },
+    "workbench.activityBar.location": "hidden",
 }
