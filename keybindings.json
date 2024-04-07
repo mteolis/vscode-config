@@ -60,11 +60,6 @@
         "command": "explorer.newFolder",
         "when": "explorerViewletFocus",
     },
-    {
-        "key": "shift+n",
-        "command": "workbench.action.newWindow",
-        "when": "!explorerViewletFocus",
-    },
     // EXTRA
     {
         "key": "ctrl+shift+z",
